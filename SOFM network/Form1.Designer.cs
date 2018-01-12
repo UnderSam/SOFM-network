@@ -77,7 +77,7 @@
             // 
             // modeChange
             // 
-            this.modeChange.Location = new System.Drawing.Point(539, 282);
+            this.modeChange.Location = new System.Drawing.Point(539, 296);
             this.modeChange.Name = "modeChange";
             this.modeChange.Size = new System.Drawing.Size(134, 82);
             this.modeChange.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // clearinput
             // 
-            this.clearinput.Location = new System.Drawing.Point(695, 282);
+            this.clearinput.Location = new System.Drawing.Point(695, 296);
             this.clearinput.Name = "clearinput";
             this.clearinput.Size = new System.Drawing.Size(149, 82);
             this.clearinput.TabIndex = 4;
@@ -159,7 +159,7 @@
             // trainButton
             // 
             this.trainButton.Font = new System.Drawing.Font("Tekton Pro Ext", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.trainButton.Location = new System.Drawing.Point(539, 370);
+            this.trainButton.Location = new System.Drawing.Point(539, 384);
             this.trainButton.Name = "trainButton";
             this.trainButton.Size = new System.Drawing.Size(305, 132);
             this.trainButton.TabIndex = 13;
@@ -170,7 +170,7 @@
             // RetryButton
             // 
             this.RetryButton.Font = new System.Drawing.Font("Tekton Pro Ext", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RetryButton.Location = new System.Drawing.Point(539, 533);
+            this.RetryButton.Location = new System.Drawing.Point(539, 522);
             this.RetryButton.Name = "RetryButton";
             this.RetryButton.Size = new System.Drawing.Size(305, 132);
             this.RetryButton.TabIndex = 14;
@@ -182,7 +182,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("新細明體", 20F);
-            this.label6.Location = new System.Drawing.Point(534, 237);
+            this.label6.Location = new System.Drawing.Point(534, 257);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(125, 27);
             this.label6.TabIndex = 15;
@@ -192,7 +192,7 @@
             // 
             this.inputsz.AutoSize = true;
             this.inputsz.Font = new System.Drawing.Font("新細明體", 20F);
-            this.inputsz.Location = new System.Drawing.Point(665, 237);
+            this.inputsz.Location = new System.Drawing.Point(701, 257);
             this.inputsz.Name = "inputsz";
             this.inputsz.Size = new System.Drawing.Size(32, 27);
             this.inputsz.TabIndex = 16;
@@ -236,7 +236,7 @@
             // 
             this.dimen1.AutoSize = true;
             this.dimen1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.dimen1.Location = new System.Drawing.Point(710, 146);
+            this.dimen1.Location = new System.Drawing.Point(706, 218);
             this.dimen1.Name = "dimen1";
             this.dimen1.Size = new System.Drawing.Size(44, 31);
             this.dimen1.TabIndex = 20;
@@ -250,7 +250,7 @@
             this.dimen2.Checked = true;
             this.dimen2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.dimen2.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.dimen2.Location = new System.Drawing.Point(760, 146);
+            this.dimen2.Location = new System.Drawing.Point(782, 218);
             this.dimen2.Name = "dimen2";
             this.dimen2.Size = new System.Drawing.Size(44, 31);
             this.dimen2.TabIndex = 21;
@@ -262,21 +262,21 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("新細明體", 20F);
-            this.label5.Location = new System.Drawing.Point(705, 104);
+            this.label5.Location = new System.Drawing.Point(534, 218);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 27);
+            this.label5.Size = new System.Drawing.Size(138, 27);
             this.label5.TabIndex = 22;
-            this.label5.Text = "Dimension";
+            this.label5.Text = "Dimension :";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("新細明體", 20F);
-            this.label8.Location = new System.Drawing.Point(539, 192);
+            this.label8.Location = new System.Drawing.Point(534, 180);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(158, 27);
+            this.label8.Size = new System.Drawing.Size(172, 27);
             this.label8.TabIndex = 23;
-            this.label8.Text = "Linear Update";
+            this.label8.Text = "Linear Update :";
             // 
             // linearyes
             // 
@@ -284,7 +284,7 @@
             this.linearyes.Checked = true;
             this.linearyes.CheckState = System.Windows.Forms.CheckState.Checked;
             this.linearyes.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.linearyes.Location = new System.Drawing.Point(710, 192);
+            this.linearyes.Location = new System.Drawing.Point(706, 180);
             this.linearyes.Name = "linearyes";
             this.linearyes.Size = new System.Drawing.Size(70, 31);
             this.linearyes.TabIndex = 24;
@@ -296,7 +296,7 @@
             // 
             this.linearno.AutoSize = true;
             this.linearno.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.linearno.Location = new System.Drawing.Point(782, 192);
+            this.linearno.Location = new System.Drawing.Point(782, 180);
             this.linearno.Name = "linearno";
             this.linearno.Size = new System.Drawing.Size(62, 31);
             this.linearno.TabIndex = 25;
