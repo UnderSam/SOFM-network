@@ -59,10 +59,13 @@
             // titledb
             // 
             this.titledb.AutoSize = true;
+            this.titledb.BackColor = System.Drawing.Color.Tan;
+            this.titledb.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.titledb.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.titledb.Font = new System.Drawing.Font("新細明體", 35F);
             this.titledb.Location = new System.Drawing.Point(47, 9);
             this.titledb.Name = "titledb";
-            this.titledb.Size = new System.Drawing.Size(436, 47);
+            this.titledb.Size = new System.Drawing.Size(438, 49);
             this.titledb.TabIndex = 1;
             this.titledb.Text = "Kohoenen Feature map";
             // 
@@ -77,22 +80,24 @@
             // 
             // modeChange
             // 
+            this.modeChange.BackColor = System.Drawing.SystemColors.HighlightText;
             this.modeChange.Location = new System.Drawing.Point(539, 296);
             this.modeChange.Name = "modeChange";
             this.modeChange.Size = new System.Drawing.Size(134, 82);
             this.modeChange.TabIndex = 3;
             this.modeChange.Text = "change to random input";
-            this.modeChange.UseVisualStyleBackColor = true;
+            this.modeChange.UseVisualStyleBackColor = false;
             this.modeChange.Click += new System.EventHandler(this.modeChange_Click);
             // 
             // clearinput
             // 
+            this.clearinput.BackColor = System.Drawing.SystemColors.HighlightText;
             this.clearinput.Location = new System.Drawing.Point(695, 296);
             this.clearinput.Name = "clearinput";
             this.clearinput.Size = new System.Drawing.Size(149, 82);
             this.clearinput.TabIndex = 4;
             this.clearinput.Text = "ClearInput";
-            this.clearinput.UseVisualStyleBackColor = true;
+            this.clearinput.UseVisualStyleBackColor = false;
             this.clearinput.Click += new System.EventHandler(this.clearinput_Click);
             // 
             // label1
@@ -158,24 +163,26 @@
             // 
             // trainButton
             // 
+            this.trainButton.BackColor = System.Drawing.SystemColors.HighlightText;
             this.trainButton.Font = new System.Drawing.Font("Tekton Pro Ext", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.trainButton.Location = new System.Drawing.Point(539, 384);
             this.trainButton.Name = "trainButton";
             this.trainButton.Size = new System.Drawing.Size(305, 132);
             this.trainButton.TabIndex = 13;
             this.trainButton.Text = "TRAIN";
-            this.trainButton.UseVisualStyleBackColor = true;
+            this.trainButton.UseVisualStyleBackColor = false;
             this.trainButton.Click += new System.EventHandler(this.trainButton_Click);
             // 
             // RetryButton
             // 
+            this.RetryButton.BackColor = System.Drawing.SystemColors.HighlightText;
             this.RetryButton.Font = new System.Drawing.Font("Tekton Pro Ext", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RetryButton.Location = new System.Drawing.Point(539, 522);
             this.RetryButton.Name = "RetryButton";
             this.RetryButton.Size = new System.Drawing.Size(305, 132);
             this.RetryButton.TabIndex = 14;
             this.RetryButton.Text = "RETRY";
-            this.RetryButton.UseVisualStyleBackColor = true;
+            this.RetryButton.UseVisualStyleBackColor = false;
             this.RetryButton.Click += new System.EventHandler(this.RetryButton_Click);
             // 
             // label6
@@ -308,7 +315,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(885, 685);
             this.Controls.Add(this.linearno);
             this.Controls.Add(this.linearyes);
